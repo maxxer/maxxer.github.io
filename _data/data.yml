@@ -7,61 +7,62 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Lorenzo Milesi (maxxer)
+    tagline: Web Developer and Linux System Administrator
+    avatar: maxxer_2022.png
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
+    email: lorenzo@mile.si
+    phone:
+    timezone: Europe/Rome
+    citizenship: Italian
+    website: lorenzo.mile.si
+    linkedin: maxxer
+    xing:
+    github: maxxer
+    telegram: maxxer
+    gitlab: maxxer
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: '@maxxer'
+    stack-overflow: 738852/maxxer
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Italian
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: C1 - Advanced
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Hiking
+          link: https://it.wikiloc.com/wikiloc/user.do?id=10712
+        - item: Photography
+          link: https://www.flickr.com/photos/maxxer_it/
+        - item: Travelling
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I've been working with Linux and open source for the last 15 years.
+      This experience allowed me to span accross different software and
+      technologies, explore various solutions and implement creative
+      combinations. It has been an incredible and stimulating journey, with
+      many challenges and lots of opportunities.
+      I've explored many fields of IT: advanced networking, Linux server
+      administration, web servers, databases, Samba AD DC, automation with
+      Ansible.
+      I also grew strong experience in PHP programming, especially with Yii1.1
+      and Yii2 frameworks.
+      I consider myself curious and open minded.
 education:
     title: Education
     info:
@@ -90,69 +91,70 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Tech leader
+        time: 2007 - Present
+        company: YetOpen Srl - Italy
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Present since the early years, I grew and helped growing the Company,
+          developing enterprise solutions with Linux in a country which barely
+          knew the name at that time.
+          I deployed Linux servers for various purposes, and developed web
+          applications with PHP, MySQL and Apache (later nginx). The internal
+          and all the customers infrastructures are actively monited with a
+          Zabbix installation, which allowed us to promptly prevent and deal
+          with possible outages.
+          As the company grew, we had the chance to cultivate young talents
+          coming from local technical schools and universities.
+            - Linux administrator
+            - PHP developer
+            - Technical leader
+      - role: IT department
+        time: 2002 - 2007
+        company: Norda mineral water - ITaly
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I was the main and only IT manager, with helpdesk, network development
+          and maintenance tasks.
+          The Company had five remote production plants and offices, all connected
+          to the IBM iSeries in the headquarter.
+            - AS/400
+            - RPG developer
+            - Support manager
       - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+        time: 1999 - 2002
+        company: Limonta Informatica - Italy
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          RPG developer on IBM AS/400 (iSeries).
+            - AS/400
+            - RPG developer
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I tried giving my 2 cents to the Open Source community with some small
+      projects, hoping they could be useful for others.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: certbot-zimbra
+        link: https://github.com/YetOpen/certbot-zimbra
+        tagline: "A Bash script used to request and deploy Letsencrypt certificate to Zimbra Collaboration Server, with automatic renewal."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Zimbra live sync scripts
+        link: https://gitlab.com/yetopen/zimbra-live-sync
+        tagline: "A collection of scripts for live syncying two Zimbra instances. Not the original author, I just gave a 'repository' to the files residing on the wiki."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: yii2-usuario
+        link: https://github.com/2amigos/yii2-usuario/
+        tagline: "Extensible user management for Yii2 framework. While not a project of mine, the author handed me the maintenance when he couldn't manage anymore."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Radio Deejay reloaded podcaster
+        link: https://github.com/maxxer/radiodeejaypodcaster
+        tagline: "A set of PHP script to fetch full program episodes from the Italian Radio Deejay website, to create a podcast compatible XML file"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Zimbra addressbook lookup API for 3CX Pro
+        link: https://gitlab.com/maxxer/3cx-zimbra-addressbook-lookup
+        tagline: "A Javascript test project, roughly finished. The goal was to design a REST API to lookup 3CX caller name from a Zimbra address book."
+
+      - title: My HomeAssistant garage opener setup
+        link: https://gitlab.com/maxxer/homeassistant-garage
+        tagline: "My simple setup for Home Assistant, managing a MCP23017 based board"
 
 oss:
     title: OSS Contributions
@@ -199,13 +201,13 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: PHP
         level: 98%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 10%
 
-      - name: Angular
+      - name: Linux
         level: 98%
 
       - name: HTML5 & CSS
