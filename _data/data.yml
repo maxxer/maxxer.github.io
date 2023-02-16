@@ -3,11 +3,11 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Lorenzo Milesi (maxxer)
+    name: Lorenzo Milesi
     tagline: Web Developer and Linux System Administrator
     avatar: maxxer_2022.png
 
@@ -46,8 +46,7 @@ sidebar:
         - item: Photography
           link: https://www.flickr.com/photos/maxxer_it/
         - item: Travelling
-          link:
-
+          link: #
 
 career-profile:
     title: Career Profile
@@ -57,12 +56,16 @@ career-profile:
       technologies, explore various solutions and implement creative
       combinations. It has been an incredible and stimulating journey, with
       many challenges and lots of opportunities.
+
       I've explored many fields of IT: advanced networking, Linux server
       administration, web servers, databases, Samba AD DC, automation with
       Ansible.
+
       I also grew strong experience in PHP programming, especially with Yii1.1
       and Yii2 frameworks.
+
       I consider myself curious and open minded.
+
 education:
     title: Education
     info:
@@ -117,7 +120,7 @@ experiences:
           The Company had five remote production plants and offices, all connected
           to the IBM iSeries in the headquarter.
             - AS/400
-            - RPG developer
+            - RPG and DB2 developer
             - Support manager
       - role: UI Developer
         time: 1999 - 2002
@@ -125,13 +128,46 @@ experiences:
         details: |
           RPG developer on IBM AS/400 (iSeries).
             - AS/400
-            - RPG developer
+            - RPG and DB2 developer
+
 projects:
     title: Projects
     intro: >
+      This is a short list of projects I developed recently.
+    assignments:
+      - title: Distributed Samba AD DC network
+        link: "#"
+        tagline: "We deployed a distributed AD network, with three Domain Controller in cloud in different data centers. "
+
+      - title: Distribute webapps as containers
+        link: "#"
+        tagline: >
+          In the last months, I dedicated time in implementing a solution to containerize the company's
+          PHP webapps, by creating Dockerfile and docker-compose.yaml files, both for production and
+          development. Images are created by GitLab's CI, and stored into its *container registry*.
+
+      - title: HL7 middleware
+        link: "#"
+        tagline: "I developed a PHP software to be placed between the host system and Mirth, before being delivered to going to Cadlink Server. The middleware had to hold HL7 orders and eventually manipulate them, in case the host sent an update."
+
+      - title: Frontend proxy with nginx
+        link: "#"
+        tagline: "I deployed a high available frontend proxy cache with nginx and keepalived, to front a Wordpress site for a 15k person Italian company"
+
+      - title: Hotspot management portal
+        link: "#"
+        tagline: "A 10+ year long development project, a user management portal for an hotspot system based on FreeRadius and CoovaChilli. The PHP Yii application was developed to manage users, groups, federations, permissions, and was designed to allow authentication via SMS, PayPal or thirdy-party library management systems."
+
+      - title: Municipality app backend management
+        link: "#"
+        tagline: "I developed a Yii2 PHP application used to feed a widely distributed mobile app for Italian municipalities. The backend is used to manage manually entered news, as well as externally provied information fetched from RSS feeds or API sources."
+
+oss:
+    title: Open source contribution
+    intro: >
       I tried giving my 2 cents to the Open Source community with some small
       projects, hoping they could be useful for others.
-    assignments:
+    contributions:
       - title: certbot-zimbra
         link: https://github.com/YetOpen/certbot-zimbra
         tagline: "A Bash script used to request and deploy Letsencrypt certificate to Zimbra Collaboration Server, with automatic renewal."
@@ -156,68 +192,31 @@ projects:
         link: https://gitlab.com/maxxer/homeassistant-garage
         tagline: "My simple setup for Home Assistant, managing a MCP23017 based board"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Building Zimbra9 via Docker
+        link: https://github.com/ianw1974/zimbra-build-scripts/pull/12
+        tagline: "I contributed the patch to build with Docker for Ian Walker's `zimbra-build-scripts`"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: PHP
-        level: 98%
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 10%
+      - name: Javascript & Node.js
+        level: 20%
 
       - name: Linux
-        level: 98%
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: MySQL
+        level: 90%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Bash
+        level: 75%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Docker and containerization
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
