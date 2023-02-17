@@ -61,36 +61,39 @@ career-profile:
       administration, web servers, databases, Samba AD DC, automation with
       Ansible.
 
+      I've been nominated *outstanding member* of the Zimbra forum, participating
+      in the evolution of the platform. I closely followed the management of
+      CVE-2019-9670 by the community, providing feedback and support to those
+      impacted.
+
       I also grew strong experience in PHP programming, especially with Yii1.1
-      and Yii2 frameworks.
+      and Yii2 frameworks, developing copmlex and advanced applications.
+      For a big b2c customer, I developed a small Vue app used to prepare
+      deliveries, connecting via websocket to a Node.js app continuously reading
+      weight from a balance.
 
       I consider myself curious and open minded.
+
+      I always participated in open source, by providing help on forums and
+      translating applications, but my first real code contribution was for the F-Spot
+      photo management system, a C# based Gnome app.
 
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Zimbra Advanced Administration
+        university: Zimbra Inc.
+        time: 2009
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Certified Zimbra Advanced Administrator
+      - degree: Citrix Certified Professional
+        university: Citrix
+        time: 2008
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Certified Citrix Professional
+      - degree: High school degree in informatics
+        university: ISS A. Badoni - Lecco
+        time: 1992 - 1997
 experiences:
     title: Experiences
     info:
@@ -172,14 +175,6 @@ oss:
         link: https://github.com/YetOpen/certbot-zimbra
         tagline: "A Bash script used to request and deploy Letsencrypt certificate to Zimbra Collaboration Server, with automatic renewal."
 
-      - title: Zimbra live sync scripts
-        link: https://gitlab.com/yetopen/zimbra-live-sync
-        tagline: "A collection of scripts for live syncying two Zimbra instances. Not the original author, I just gave a 'repository' to the files residing on the wiki."
-
-      - title: yii2-usuario
-        link: https://github.com/2amigos/yii2-usuario/
-        tagline: "Extensible user management for Yii2 framework. While not a project of mine, the author handed me the maintenance when he couldn't manage anymore."
-
       - title: Radio Deejay reloaded podcaster
         link: https://github.com/maxxer/radiodeejaypodcaster
         tagline: "A set of PHP script to fetch full program episodes from the Italian Radio Deejay website, to create a podcast compatible XML file"
@@ -191,6 +186,14 @@ oss:
       - title: My HomeAssistant garage opener setup
         link: https://gitlab.com/maxxer/homeassistant-garage
         tagline: "My simple setup for Home Assistant, managing a MCP23017 based board"
+
+      - title: Zimbra live sync scripts
+        link: https://gitlab.com/yetopen/zimbra-live-sync
+        tagline: "A collection of scripts for live syncying two Zimbra instances. Not the original author, I just gave a 'repository' to the files residing on the wiki."
+
+      - title: yii2-usuario
+        link: https://github.com/2amigos/yii2-usuario/
+        tagline: "Extensible user management for Yii2 framework. While not a project of mine, the author handed me the maintenance when he couldn't manage anymore."
 
       - title: Building Zimbra9 via Docker
         link: https://github.com/ianw1974/zimbra-build-scripts/pull/12
