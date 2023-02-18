@@ -61,13 +61,13 @@ career-profile:
       administration, web servers, databases, Samba AD DC, automation with
       Ansible.
 
-      I've been nominated *outstanding member* of the Zimbra forum, participating
+      I've been nominated outstanding member of the Zimbra forum, participating
       in the evolution of the platform. I closely followed the management of
       CVE-2019-9670 by the community, providing feedback and support to those
       impacted.
 
       I also grew strong experience in PHP programming, especially with Yii1.1
-      and Yii2 frameworks, developing copmlex and advanced applications.
+      and Yii2 frameworks, developing complex and advanced applications.
       For a big b2c customer, I developed a small Vue app used to prepare
       deliveries, connecting via websocket to a Node.js app continuously reading
       weight from a balance.
@@ -106,7 +106,7 @@ experiences:
           knew the name at that time.
           I deployed Linux servers for various purposes, and developed web
           applications with PHP, MySQL and Apache (later nginx). The internal
-          and all the customers infrastructures are actively monited with a
+          and all the customers infrastructures are actively monitored with a
           Zabbix installation, which allowed us to promptly prevent and deal
           with possible outages.
           As the company grew, we had the chance to cultivate young talents
@@ -121,11 +121,11 @@ experiences:
           I was the main and only IT manager, with helpdesk, network development
           and maintenance tasks.
           The Company had five remote production plants and offices, all connected
-          to the IBM iSeries in the headquarter.
+          to the IBM iSeries at the headquarter.
             - AS/400
             - RPG and DB2 developer
             - Support manager
-      - role: UI Developer
+      - role: RPG Developer
         time: 1999 - 2002
         company: Limonta Informatica - Italy
         details: |
@@ -140,14 +140,14 @@ projects:
     assignments:
       - title: Distributed Samba AD DC network
         link: "#"
-        tagline: "We deployed a distributed AD network, with three Domain Controller in cloud in different data centers. "
+        tagline: "We deployed a distributed AD network, with three Domain Controllers in cloud in different data centers."
 
       - title: Distribute webapps as containers
         link: "#"
         tagline: >
           In the last months, I dedicated time in implementing a solution to containerize the company's
           PHP webapps, by creating Dockerfile and docker-compose.yaml files, both for production and
-          development. Images are created by GitLab's CI, and stored into its *container registry*.
+          development. Images are created by GitLab's CI, and stored into its container registry.
 
       - title: HL7 middleware
         link: "#"
@@ -197,7 +197,7 @@ oss:
 
       - title: Building Zimbra9 via Docker
         link: https://github.com/ianw1974/zimbra-build-scripts/pull/12
-        tagline: "I contributed the patch to build with Docker for Ian Walker's `zimbra-build-scripts`"
+        tagline: "I contributed the patch to build with Docker for Ian Walker's zimbra-build-scripts"
 
 skills:
     title: Skills &amp; Proficiency
