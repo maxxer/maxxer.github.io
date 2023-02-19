@@ -116,7 +116,7 @@ experiences:
             - Technical leader
       - role: IT department
         time: 2002 - 2007
-        company: Norda mineral water - ITaly
+        company: Norda mineral water - Italy
         details: |
           I was the main and only IT manager, with helpdesk, network development
           and maintenance tasks.
@@ -206,8 +206,8 @@ skills:
       - name: PHP
         level: 90%
 
-      - name: Javascript & Node.js
-        level: 20%
+      - name: Javascript
+        level: 50%
 
       - name: Linux
         level: 90%
