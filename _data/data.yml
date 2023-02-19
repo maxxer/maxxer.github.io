@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: 738852/maxxer
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
+    pdf: assets/lorenzo_milesi_cv_2023.pdf
 
     languages:
       title: Languages
