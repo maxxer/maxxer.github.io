@@ -158,11 +158,11 @@ projects:
         tagline: "I deployed a high available frontend proxy cache with nginx and keepalived, to front a Wordpress site for a 15k person Italian company"
 
       - title: Hotspot management portal
-        link: "#"
+        link: "https://wifinext.it"
         tagline: "A 10+ year long development project, a user management portal for an hotspot system based on FreeRadius and CoovaChilli. The PHP Yii application was developed to manage users, groups, federations, permissions, and was designed to allow authentication via SMS, PayPal or thirdy-party library management systems."
 
       - title: Municipality app backend management
-        link: "#"
+        link: "https://comunesmart.it"
         tagline: "I developed a Yii2 PHP application used to feed a widely distributed mobile app for Italian municipalities. The backend is used to manage manually entered news, as well as externally provied information fetched from RSS feeds or API sources."
 
 oss:
