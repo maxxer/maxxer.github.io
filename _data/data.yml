@@ -61,7 +61,7 @@ career-profile:
       administration, web servers, databases, Samba AD DC, automation with
       Ansible.
 
-      I've been nominated outstanding member of the Zimbra forum, participating
+      I've been nominated *outstanding member* of the Zimbra forum, participating
       in the evolution of the platform. I closely followed the management of
       CVE-2019-9670 by the community, providing feedback and support to those
       impacted.
@@ -166,7 +166,7 @@ projects:
         tagline: "I developed a Yii2 PHP application used to feed a widely distributed mobile app for Italian municipalities. The backend is used to manage manually entered news, as well as externally provied information fetched from RSS feeds or API sources."
 
 oss:
-    title: Open source contribution
+    title: Open source contributions
     intro: >
       I tried giving my 2 cents to the Open Source community with some small
       projects, hoping they could be useful for others.
@@ -177,11 +177,11 @@ oss:
 
       - title: Radio Deejay reloaded podcaster
         link: https://github.com/maxxer/radiodeejaypodcaster
-        tagline: "A set of PHP script to fetch full program episodes from the Italian Radio Deejay website, to create a podcast compatible XML file"
+        tagline: "A set of PHP script to fetch full program episodes from the Italian Radio Deejay website, to create a podcast compatible XML file."
 
       - title: Zimbra addressbook lookup API for 3CX Pro
         link: https://gitlab.com/maxxer/3cx-zimbra-addressbook-lookup
-        tagline: "A Javascript test project, roughly finished. The goal was to design a REST API to lookup 3CX caller name from a Zimbra address book."
+        tagline: "A Javascript test project, roughly finished. The goal was to design a REST API to lookup 3CX caller name from a Zimbra address book, and attempt to use Node.js and Fastify."
 
       - title: My HomeAssistant garage opener setup
         link: https://gitlab.com/maxxer/homeassistant-garage
@@ -197,7 +197,7 @@ oss:
 
       - title: Building Zimbra9 via Docker
         link: https://github.com/ianw1974/zimbra-build-scripts/pull/12
-        tagline: "I contributed the patch to build with Docker for Ian Walker's zimbra-build-scripts"
+        tagline: "I contributed the patch to build with Docker for Ian Walker's `zimbra-build-scripts`"
 
 skills:
     title: Skills &amp; Proficiency
