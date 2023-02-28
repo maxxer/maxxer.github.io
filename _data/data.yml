@@ -64,13 +64,19 @@ career-profile:
       I've been nominated *outstanding member* of the Zimbra forum, participating
       in the evolution of the platform. I closely followed the management of
       CVE-2019-9670 by the community, providing feedback and support to those
-      impacted.
+      impacted, and developed a script to obtain and install a Letsencrypt
+      certificate in Zimbra.
 
       I also grew strong experience in PHP programming, especially with Yii1.1
       and Yii2 frameworks, developing complex and advanced applications.
       For a big b2c customer, I developed a small Vue app used to prepare
       deliveries, connecting via websocket to a Node.js app continuously reading
       weight from a balance.
+
+      Among the different tasks, I also have been providing I and II level support
+      to customers, developing skills to provide the most efficient and proficient
+      answer for the client. The broad knowledge in many IT fields allows me to
+      better understand the customer request and provide the correct solution.
 
       I consider myself curious and open minded. When developing, I focus on
       optimization, speed and security.
