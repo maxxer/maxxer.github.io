@@ -85,9 +85,17 @@ career-profile:
       translating applications, but my first real code contribution was for the F-Spot
       photo management system, a C# based Gnome app.
 
+      For personal growth and carreer opportunities, I obtained the **SAA-C03
+      AWS Certified Solutions Architect - Associate** certification in May 2023.
+
 education:
     title: Education
     info:
+      - degree: AWS Certified Solutions Architect - Associate - SAA-C03
+        university: Amazon AWS
+        time: 2023
+        details: |
+          Prepared in less than one month in non-working time, scored 803 points.
       - degree: Zimbra Advanced Administration
         university: Zimbra Inc.
         time: 2009
