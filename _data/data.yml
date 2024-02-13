@@ -52,8 +52,8 @@ career-profile:
     title: Career Profile
     summary: |
       I've been working with Linux and open source for the last 15 years.
-      This experience allowed me to span accross different software and
-      technologies, explore various solutions and implement creative
+      This experience allowed me to span across different software and
+      technologies, explore various solutions, and implement creative
       combinations. It has been an incredible and stimulating journey, with
       many challenges and lots of opportunities.
 
@@ -67,7 +67,7 @@ career-profile:
       impacted, and developed a script to obtain and install a Letsencrypt
       certificate in Zimbra.
 
-      I also grew strong experience in PHP programming, especially with Yii1.1
+      I also gained strong experience in PHP programming, especially with Yii1.1
       and Yii2 frameworks, developing complex and advanced applications.
       For a big b2c customer, I developed a small Vue app used to prepare
       deliveries, connecting via websocket to a Node.js app continuously reading
@@ -75,17 +75,17 @@ career-profile:
 
       Among the different tasks, I also have been providing I and II level support
       to customers, developing skills to provide the most efficient and proficient
-      answer for the client. The broad knowledge in many IT fields allows me to
-      better understand the customer request and provide the correct solution.
+      answer for the client. My broad knowledge in many IT fields allows me to
+      understand customer requests better and provide the correct solution.
 
-      I consider myself curious and open minded. When developing, I focus on
-      optimization, speed and security.
+      I consider myself curious and open-minded. When developing, I focus on
+      optimization, speed, and security.
 
       I always participated in open source, by providing help on forums and
       translating applications, but my first real code contribution was for the F-Spot
       photo management system, a C# based Gnome app.
 
-      For personal growth and carreer opportunities, I obtained the **SAA-C03
+      For personal growth and career opportunities, I obtained the **SAA-C03
       AWS Certified Solutions Architect - Associate** certification in May 2023.
 
 education:
@@ -131,12 +131,12 @@ experiences:
         time: 2007 - 2023
         company: YetOpen Srl - Italy
         details: |
-          Present since the early years, I grew and helped growing the Company,
-          developing enterprise solutions with Linux in a country which barely
+          Present since the early years, I grew and helped grow the Company,
+          developing enterprise solutions with Linux in a country that barely
           knew the name at that time.
           I deployed Linux servers for various purposes, and developed web
-          applications with PHP, MySQL and Apache (later nginx). The internal
-          and all the customers infrastructures are actively monitored with a
+          applications with PHP, MySQL, and Apache (later nginx). The internal
+          and all the customers' infrastructures are actively monitored with a
           Zabbix installation, which allowed us to promptly prevent and deal
           with possible outages.
           As the company grew, we had the chance to cultivate young talents
@@ -152,7 +152,7 @@ experiences:
           I was the main and only IT manager, with helpdesk, network development
           and maintenance tasks.
           The Company had five remote production plants and offices, all connected
-          to the IBM iSeries at the headquarter.
+          to the IBM iSeries at the headquarters.
             - AS/400
             - RPG and DB2 developer
             - Support manager
@@ -190,11 +190,11 @@ projects:
 
       - title: Hotspot management portal
         link: "https://wifinext.it"
-        tagline: "A 10+ year long development project, a user management portal for an hotspot system based on FreeRadius and CoovaChilli. The PHP Yii application was developed to manage users, groups, federations, permissions, and was designed to allow authentication via SMS, PayPal or thirdy-party library management systems."
+        tagline: "A 10+ year-long development project, a user management portal for a hotspot system based on FreeRadius and CoovaChilli. The PHP Yii application was developed to manage users, groups, federations, permissions, and was designed to allow authentication via SMS, PayPal or thirdy-party library management systems."
 
       - title: Municipality app backend management
         link: "https://comunesmart.it"
-        tagline: "I developed a Yii2 PHP application used to feed a widely distributed mobile app for Italian municipalities. The backend is used to manage manually entered news, as well as externally provied information fetched from RSS feeds or API sources."
+        tagline: "I developed a Yii2 PHP application used to feed a widely distributed mobile app for Italian municipalities. The backend is used to manage manually entered news, as well as externally provided information fetched from RSS feeds or API sources."
 
 oss:
     title: Open source contributions
@@ -210,7 +210,7 @@ oss:
         link: https://github.com/maxxer/radiodeejaypodcaster
         tagline: "A set of PHP script to fetch full program episodes from the Italian Radio Deejay website, to create a podcast compatible XML file."
 
-      - title: Zimbra addressbook lookup API for 3CX Pro
+      - title: Zimbra address book lookup API for 3CX Pro
         link: https://gitlab.com/maxxer/3cx-zimbra-addressbook-lookup
         tagline: "A Javascript test project, roughly finished. The goal was to design a REST API to lookup 3CX caller name from a Zimbra address book, and attempt to use Node.js and Fastify."
 
@@ -220,7 +220,7 @@ oss:
 
       - title: Zimbra live sync scripts
         link: https://gitlab.com/yetopen/zimbra-live-sync
-        tagline: "A collection of scripts for live syncying two Zimbra instances. Not the original author, I just gave a 'repository' to the files residing on the wiki."
+        tagline: "A collection of scripts for live syncing two Zimbra instances. Not the original author, I just gave a 'repository' to the files residing on the wiki."
 
       - title: yii2-usuario
         link: https://github.com/2amigos/yii2-usuario/
