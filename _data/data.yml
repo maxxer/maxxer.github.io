@@ -112,8 +112,23 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: PHP and JS Developer, Google Cloud administrator
+        time: 2023 - present
+        company: Queen of Clubs - UK/France/Italy/Switzerland
+        details: |
+          After many years in consultancy, I took a turn to my career by working
+          as internal IT for a single company. This allowed me to focus and specialize
+          on less topics, but also the chance to widen my expertise by developing in
+          Javascript both on frontend and backend, as well as exploring new tools like
+          Elasticsearch and Google Cloud.
+            - Linux administrator
+            - Network administrator (LAN, cloud)
+            - PHP developer
+            - React developer
+            - Node.js developer
+            - Technical assistance
       - role: R&D, Developer, SysAdmin
-        time: 2007 - Present
+        time: 2007 - 2023
         company: YetOpen Srl - Italy
         details: |
           Present since the early years, I grew and helped growing the Company,
